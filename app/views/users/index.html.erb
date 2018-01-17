@@ -1,0 +1,6 @@
+<% @users.each do |user| %>
+  <%= user.name %>
+  <%= user.role %>
+<% end %>
+
+<%= link_to "New User", root_path %>
